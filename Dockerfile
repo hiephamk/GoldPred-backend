@@ -4,7 +4,7 @@ FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    DJANGO_SETTINGS_MODULE=main.settings.production
+    DJANGO_SETTINGS_MODULE=main.settings
 
 WORKDIR /app
 
